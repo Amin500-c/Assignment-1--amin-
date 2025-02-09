@@ -5,13 +5,15 @@
 
 .second-bg{
  
-    
+    /* Banner  */
 }
 .banner{
     display: flex;
     justify-content: space-between;
     background-color: #C6E4D6;
     margin: 20px 160px 0px 160px;
+    border-radius: 24px;
+    
      /* margin-left: 160px; */
     /* margin-right: 160px; */
     /* margin-top: 20px; */
@@ -20,6 +22,7 @@
 .banner-content{
     max-width: 622px;
     padding: 60px 117px;
+   
     
 
 }
@@ -48,6 +51,9 @@
     border-radius: 8px;
     border: none;
 }
+
+/* Skils */
+
 .skills{
   margin-top: 80px;
 }
@@ -60,17 +66,20 @@
 .skill-1{
     background-color: #5490F533;
     padding: 32px 32px;
+    border-radius: 16px;
 
 }
 
 .skill-2{
     background-color: #C6E4D6;
     padding: 32px 32px;
+    border-radius: 16px;
 }
 
 .skill-3{
     background-color: #F7EBCF;
     padding: 32px 32px;
+    border-radius: 16px;
 }
 main{
     max-width: 1280px;
@@ -82,9 +91,10 @@ main{
 }
 .skill-description{
     font-size: 16px;
+    margin-bottom: 32px;
 }
 .btn-skill-1{
-    border-radius: 8px;
+    border-radius: 16px;
     font-size: 16px;
     padding:11px 20px;
     color: white;
@@ -94,7 +104,7 @@ main{
 }
 
 .btn-skill-2{
-    border-radius: 8px;
+    border-radius: 16px;
     font-size: 16px;
     padding:11px 20px;
     color: white;
@@ -104,7 +114,7 @@ main{
 }
 
 .btn-skill-3{
-    border-radius: 8px;
+    border-radius: 16px;
     font-size: 16px;
     padding:11px 20px;
     color: white;
@@ -112,6 +122,8 @@ main{
     max-width: 122px;
     border: none;
 }
+
+/* News */
 
 .news-1{
     display: flex;
@@ -143,6 +155,7 @@ main{
     background-color: #006A50;
     max-width: 139px;
     border: none;
+    margin-top: 32px;
 }
 .news-title{
     font-weight: bold;
@@ -154,6 +167,99 @@ main{
     flex-direction: column;
     gap: 24px;
 }
+.img-detail{
+    border-radius: 16px;
+    max-width: 410px;
+}
+
+/* Donate */
+
 .donate{
     display: flex;
+    gap: 24px;
+    
+   
+    
+}
+
+.text-align{
+    text-align: center;
+
+}
+
+.donate-content-1{
+    border: 1px solid #0E0E0E26;
+    padding: 40px 40px;
+    font-size: 40px;
+    border-radius: 16px;
+    background-color: white;
+    width: 240px;
+    height: 128px;
+    text-align: center;
+
+}
+
+.donate-content-2{
+    border: 1px solid #0E0E0E26;
+    padding: 40px 40px;
+    font-size: 40px;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    width: 252px;
+    height: 128px;
+    text-align: center;
+
+}
+
+.donate-content-3{
+    border: 1px solid #0E0E0E26;
+    padding: 40px 40px;
+    font-size: 40px;
+    border-radius: 16px;
+    background-color: white;
+    width: 243px;
+    height: 128px;
+    text-align: center;
+
+}
+
+.donate-content-4{
+    border: 1px solid #0E0E0E26;
+    padding: 40px 40px;
+    font-size: 40px;
+    border-radius: 16px;
+    background-color: white;
+    width: 264px;
+    height: 128px;
+    text-align: center;
+
+}
+
+.donate-title{
+  margin-top: 32px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.donate-description{
+    font-size: 16px;
+    margin-bottom: 32px;
+
+}
+form input[type="text"]{
+    height: 64px;
+    width: 1032px;
+    margin-top: 32px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+form input[type="button"]{
+    align-items: center;
+}
+
+.donation{
+    margin-top: 80px ;
 }
