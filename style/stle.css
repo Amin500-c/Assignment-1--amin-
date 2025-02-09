@@ -44,7 +44,7 @@
     background-color: #006A50;
     font-weight: bold;
     color: white;
-    padding: 34px 17px;
+    padding: 17px 34px;
     border-radius: 8px;
     border: none;
 }
@@ -153,4 +153,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+.donate{
+    display: flex;
 }
